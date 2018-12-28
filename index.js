@@ -38,7 +38,7 @@ inherits(iControl, EventEmitter);
 
 iControl.Systems = {
   XFINITY_HOME: {
-    oauthLoginURL: "https://login.comcast.net/oauth/",
+    oauthLoginURL: "https://oauth.xfinity.com/oauth/",
     clientID: "Xfinity-Home-iOS-App",
     clientSecret: "77b366f9a135c7ab391044234a26b1d6b1e08f66",
     clientRedirect: "xfinityhome://auth",
